@@ -1,0 +1,25 @@
+{
+  "name": "ts-practice",
+  "version": "1.0.0",
+  "description": "typescript first steps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -e ts --watch src --exec ts-node src/main.ts",
+    "build": "nodemon -e ts --watch src --exec tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vagus-art/ts-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vagus-art/ts-practice/issues"
+  },
+  "homepage": "https://github.com/Vagus-art/ts-practice#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
